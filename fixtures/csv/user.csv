@@ -1,0 +1,9 @@
+${id},${username},${firstName},${lastName},${email},${password},${phone},${userStatus}
+129910302,Lele,Leticia,Chaves,lele@icloud.com,teste123,996976590,1
+129910303,Lili,Lilian,Pacheco,lili@icloud.com,teste123,996976532,1
+129910304,Lulu,Lucrecia,Alves,lulu@icloud.com,teste123,996976563,2
+129910305,Carol,Carolina,Palmeira,caca@icloud.com,teste123,996976521,2
+129910306,Pri,Priscila,Muller,pri@icloud.com,teste123,996976509,3
+129910307,Nati,Natalia,Goetz,nati@icloud.com,teste123,996976584,3
+129910308,Bru,Bruna,Vieira,bru@icloud.com,teste123,996976592,4
+129910309,Luci,Lucimara,Smith,lu@icloud.com,teste123,996976574,4
