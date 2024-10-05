@@ -5,5 +5,5 @@ firstname = 'Paulo'
 lastname = 'Correia'
 totalprice = 120
 depositpaid = False 
-bookingdates = dict(checkin='2024-10-27', checkout='2024-10-30')
+bookingdates = dict(checkin='2024-10-27', checkout='2024-10-30')  # filhos
 additionalneeds = 'Breakfast'

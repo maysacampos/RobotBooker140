@@ -2,17 +2,18 @@
 *** Settings ***
 Library    RequestsLibrary
 
+
 *** Keywords ***
 Create Token
     [Arguments]    ${url}
 
     ${body}    Create Dictionary    username=admin    password=password123
-    ${response}    POST    url=${url}/auth    json=${body}   #substiruir depois pelo ping, booking  url=${url}/
+    ${response}    POST    url=${url}/auth    json=${body}
 
-    Status Should Be    200            # apenas nesse caso se rodou, parte técnica (extração)
+    Status Should Be    200
     ${token}    Set Variable    ${response.json()}[token]
     Set Suite Variable    ${token}
-    Log To Console    ${token}            # escreve que realizou a operação
+    Log To Console    ${token}
 
 Get Booking Id
     [Arguments]    ${url}    ${firstname}    ${lastname}
